@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header id="header">
+        <a class="nav-title" href="index.html"><h2>Nombre</h2></a>
+        <nav class="nav-links">
+            <a class="nav-text" href="index.html"><h2>Inicio</h2></a>
+            <a class="nav-text" href="#bandas"><h2>DJs</h2></a>
+            <a class="nav-text" href="#contacto"><h2>Contacto</h2></a>
+        </nav>
+    </header>
+
+    <section class="section1-img">
+        <div class="section1-text">
+            <h2>ELECTRO FESTIVAL</h2>
+            <h5>El mejor festival del mundo</h5>
+        </div>
+    </section>
+
+    <section class="section2" id="bandas">
+        <h1 class="titulo-cartas">ESTOS SON LOS INVITADOS</h1>
+        <div class="cards">
+            <div class="card">
+                <img class="dj-img" src="imagenes/pregunta.jpg" alt="Dj1">
+                <img src="imagenes/avicii.jpg" class="img-top" alt="Card Front">
+                <h3 class="dj-name">Avicci</h3>
+            </div>
+            <div class="card">
+                <img class="dj-img" src="imagenes/pregunta.jpg" alt="Dj1">
+                <img src="imagenes/david.jpg" class="img-top" alt="Card Front">
+                <h3 class="dj-name">David Guetta</h3>
+            </div>
+            <div class="card">
+                <img class="dj-img" src="imagenes/pregunta.jpg" alt="Dj1">
+                <img src="imagenes/armin.jpg" class="img-top" alt="Card Front">
+                <h3 class="dj-name">Armin Van Buuren</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3" id="contacto">
+        <div class="contenedor-formulario">
+            <h1 class="titulo-formulario">Contactanos!</h1>
+            <form class="formulario">
+                <div class="campo">
+                    <label class="campolabel" for="nombre">Nombre</label>
+                    <input class="campofield" type="text" placeholder="Tu Nombre" id="nombre">
+                </div>
+
+                <div class="campo">
+                    <label class="campolabel" for="email">E-mail</label>
+                    <input class="campofield" type="email" placeholder="Tu E-mail" id="email">
+                </div>
+
+                <div class="campo">
+                    <label class="campolabel" for="mensaje">Mensaje</label>
+                    <textarea class="campofield campo__field--textarea"  id="mensaje"></textarea>
+                </div>
+
+                <div class="campo">
+                    <input type="submit" value="Enviar" class="botonEnviar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#header">Inicio</a></li>
+            <li><a href="#bandas">DJs</a></li>
+        </ul>
+        <p>Copyright 2021 ©</p>
+        <div class="redes">
+            <div class="red">
+                <img class="social-imagen" src="imagenes/face.png" alt="">
+                <p class="face">Facebook</p>
+            </div>
+            <div class="red">
+                <img class="social-imagen" src="imagenes/insta.png" alt="">
+                <p class="insta">Instagram</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
